@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="InvModel" representedClassName="InvModel" syncable="YES" codeGenerationType="class">
+        <attribute name="inCat" optional="YES" attributeType="String"/>
+        <attribute name="inModel" optional="YES" attributeType="String"/>
+        <attribute name="inName" optional="YES" attributeType="String"/>
+        <attribute name="inPhoto" optional="YES" attributeType="String"/>
+        <attribute name="inSD" optional="YES" attributeType="String"/>
+        <attribute name="inSize" optional="YES" attributeType="String"/>
+        <attribute name="inStamp" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RecModel" representedClassName="RecModel" syncable="YES" codeGenerationType="class">
+        <attribute name="recDate" optional="YES" attributeType="String"/>
+        <attribute name="recInv" optional="YES" attributeType="String"/>
+        <attribute name="recName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
